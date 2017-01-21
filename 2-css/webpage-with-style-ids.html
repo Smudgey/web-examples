@@ -17,13 +17,26 @@
       #green {
         color: green;
       }
+      #first-section {
+        color: blue;
+        background-color: pink;
+        width: 50%;
+      }
+      #second-section {
+        background-color: yellow;
+        width: 50%;
+      }
     </style>
   </head>
   <body>
-    <p class="a-class-id double-size-text">This file uses css with classes and id's for the attributes</p>
-    <p class="double-size-text">The quick brown fox jumped over the lazy dog.</p>
-    <h1>Css is used for design. <span class="underlined">Spans can be used to select specific text within other tags and do stuff to it.</span></h1>
+    <div id="first-section">
+      <p class="double-size-text">This file uses css with classes and id's for the attributes</p>
+      <p class="double-size-text">The quick brown fox jumped over the lazy dog.</p>
+    </div>
 
-    <p id="green">Classes and ids have slightly different uses. Id's should ideally only be used once per page, whereas classes can be re-used.</p>
+    <div id="second-section">
+      <h1 class="a-class-id">Css is used for design.<br /><span class="underlined">Spans can be used to select specific text within other tags and do stuff to it.</span></h1>
+      <p id="green">Classes and ids have slightly different uses. Id's should ideally only be used once per page, whereas classes can be re-used.</p>
+  </div>
   </body>
 </html>
